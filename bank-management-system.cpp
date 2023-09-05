@@ -1,6 +1,4 @@
-//***************************************************************
-//                   HEADER FILE USED IN PROJECT
-//****************************************************************
+
 
 #include<iostream>
 #include<fstream>
@@ -8,9 +6,7 @@
 #include<iomanip>
 using namespace std;
 
-//***************************************************************
-//                   CLASS USED IN PROJECT
-//****************************************************************
+
 
 class account
 {
@@ -19,8 +15,8 @@ class account
 	int deposit;
 	char type;
 public:
-	void create_account();	//function to get data from user
-	void show_account() const;	//function to show data on screen
+	void create_account();	
+	void show_account() const;	
 	void modify();	//function to add new data
 	void dep(int);	//function to accept amount and add to balance amount
 	void draw(int);	//function to accept amount and subtract from balance amount
